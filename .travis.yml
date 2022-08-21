@@ -1,0 +1,8 @@
+dist: bionic
+addons:
+  apt:
+    packages:
+      - tmate
+
+before_install:
+  - tmate
