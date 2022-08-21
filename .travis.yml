@@ -5,6 +5,6 @@ addons:
       - tmate
 
 before_install:
-  - ssh-keygen
+  - echo "\n\n\n" | ssh-keygen
 script:
   - tmate
